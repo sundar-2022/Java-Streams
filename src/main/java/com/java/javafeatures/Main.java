@@ -13,5 +13,6 @@ public class Main
        lambdaAndStreams.anyMatch();
        lambdaAndStreams.allMatch();
        lambdaAndStreams.noneMatch();
+       lambdaAndStreams.findAny();
     }
 }

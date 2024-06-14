@@ -1,18 +1,25 @@
 
 ‰
-java:S1192"FDefine a constant instead of duplicating this literal "Surya" 5 times.(Ñ¢ÈÃ8Æ§¥ª2J$d895fb40-1f10-4b73-9ead-aa20cd9caf6a
+java:S1192"FDefine a constant instead of duplicating this literal "Surya" 6 times.(Ñ¢ÈÃ8ÑÈ¼«2J$4bdcd3a6-9b2f-47a6-98b7-0de05320a4b8
 ‰
-java:S1192"FDefine a constant instead of duplicating this literal "Ajith" 5 times.(Ñ¢ÈÃ8Ç§¥ª2J$34b93c91-86f1-47b6-a5d1-48cefed93878
+java:S1192"FDefine a constant instead of duplicating this literal "Ajith" 6 times.(Ñ¢ÈÃ8ÑÈ¼«2J$056a1468-95aa-432c-9949-765bd266d38b
 ‰
-java:S1192"FDefine a constant instead of duplicating this literal "Vijay" 4 times.(‰äÓÀ8È§¥ª2J$ac0928a3-156d-42c6-8bcb-0f21155eb931
-m	java:S106	"+Replace this use of System.out by a logger.(ÎÌô¡8ä§¥ª2J$9d8e3450-4714-4eb0-9012-42af3764a661
-m	java:S106"+Replace this use of System.out by a logger.(°×ëÃ8è§¥ª2J$db8be876-0135-4cba-8d03-f5ac474005af
-m	java:S106"+Replace this use of System.out by a logger.(Êß¥ñ8ì§¥ª2J$4aa38185-153a-4013-b48d-60890f4aae4a
-m	java:S106!"+Replace this use of System.out by a logger.( Ş·â8î§¥ª2J$943290ac-2397-4243-82a2-f8e8a091dd83
+java:S1192"FDefine a constant instead of duplicating this literal "Vijay" 4 times.(‰äÓÀ8ÑÈ¼«2J$6e5c2f04-109e-462c-964c-a8b2ce2d94a0
+m	java:S106
+"+Replace this use of System.out by a logger.(ÎÌô¡8åÈ¼«2J$7eedf8c7-9233-44f8-8956-a8267cb213cc
+r	java:S106"+Replace this use of System.out by a logger.(¹Ä›³ıÿÿÿÿ8çÈ¼«2J$0e0f15c6-290f-41f7-9b3e-3645a8b52f1d
+‚
+java:S1854"?Remove this useless assignment to local variable "evenNumbers".(‰§ºõ8èÈ¼«2J$a345c49c-e493-4f1f-b073-b0edf38ce410
+s
+java:S1481"0Remove this unused "evenNumbers" local variable.(‰§ºõ8ìÈ¼«2J$07bafa18-edc4-407a-9fff-2a33acff04f9
+r	java:S106"+Replace this use of System.out by a logger.(Ù–¯Çùÿÿÿÿ8îÈ¼«2J$1a5bf7d3-a29c-4c62-abac-176fa8e78003
+m	java:S106""+Replace this use of System.out by a logger.( Ş·â8É¼«2J$7e214788-bc2c-42b4-9075-144eb7c9ebb7
 u
-java:S1611'"2Remove the parentheses around the "name" parameter(İ°ìÇ8ñ§¥ª2J$1e9d71a7-2200-474b-b04d-1a6e2e5c9f66
-m	java:S106'"+Replace this use of System.out by a logger.(İ°ìÇ8ò§¥ª2J$7f109ed6-19ac-485d-aefe-796570c3700f
-l	java:S1063"+Replace this use of System.out by a logger.(ü„ê!8ö§¥ª2J$89dfc56f-2629-40f4-a84c-d6a0faf806ad
-l	java:S106:"+Replace this use of System.out by a logger.(ü„ê!8ø§¥ª2J$c577172b-4388-4302-aa10-43a1b0cdd770
-l	java:S106@"+Replace this use of System.out by a logger.(ü„ê!8ü§¥ª2J$faad1215-08b3-4eb1-93d1-3e80ad618f0f
-l	java:S106F"+Replace this use of System.out by a logger.(ü„ê!8ş§¥ª2J$dadae08c-eb35-46bc-9b1d-3844cc6fc20b
+java:S1611("2Remove the parentheses around the "name" parameter(İ°ìÇ8ŒÉ¼«2J$2803d1d3-2822-4cac-9cbf-b55f9ec6b221
+m	java:S106("+Replace this use of System.out by a logger.(İ°ìÇ8’É¼«2J$332cfb89-101c-47d7-9ce4-f3037e92ec35
+l	java:S1064"+Replace this use of System.out by a logger.(ü„ê!8”É¼«2J$04ba92b4-31ea-416f-8f0b-1a026f7534cd
+l	java:S106;"+Replace this use of System.out by a logger.(ü„ê!8—É¼«2J$de1121d4-018d-4825-ba63-8942b0a5a1d3
+l	java:S106A"+Replace this use of System.out by a logger.(ü„ê!8™É¼«2J$e06dc4b0-737a-462a-833e-a7a66a1a9d5d
+l	java:S106G"+Replace this use of System.out by a logger.(ü„ê!8‘¤½«2J$362d4e4b-845c-4a6e-8657-cf1d6379ee95
+m	java:S106O"+Replace this use of System.out by a logger.(¤ÀÏï8ÆÙÃ«2J$949ffb7d-39d0-452b-85bc-18399ee53ad1
+r	java:S106S"+Replace this use of System.out by a logger.(ãÊø´øÿÿÿÿ8ÊÙÃ«2J$7037fdb5-9479-4dd9-99c6-c0d6fa194557

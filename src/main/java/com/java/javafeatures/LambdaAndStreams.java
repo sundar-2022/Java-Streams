@@ -2,6 +2,7 @@ package com.java.javafeatures;
 
 import java.util.Arrays;
 import java.util.List;
+import java.util.Optional;
 
 public class LambdaAndStreams {
 
@@ -13,7 +14,7 @@ public class LambdaAndStreams {
         List<String> names = Arrays.asList("Vikram", "Surya", "Ajith", "Kamal", "Aamai");
 //        names.sort((a,b) -> a.compareTo(b)); // lambda expression
         names.sort(String :: compareTo); // method reference
-        System.out.println(names);
+       names.forEach(System.out::println);
     }
 
     public void printEvenNumbers(){
@@ -21,7 +22,7 @@ public class LambdaAndStreams {
         List<Integer> evenNumbers = numbers.stream()
                 .filter(n -> n % 2 == 0)
                 .toList();
-        System.out.println(evenNumbers);
+        numbers.forEach(System.out::println);
     }
 
     public void smallerToUpperCase(){
@@ -68,5 +69,17 @@ public class LambdaAndStreams {
         List<String> st = Arrays.asList("Ajith", "Vijay", "Surya");
         boolean ans = st.stream().noneMatch("Surya"::equals); // returns true if no elements matched by none match
         System.out.println(ans);
+    }
+
+    public void findAny(){
+        List<String> names = Arrays.asList("Rajini", "Surya", "Ajith", "Kamal", "Aamai");
+
+        // Using findAny() with a sequential stream
+        Optional<String> anyName = names.stream().findAny();
+        anyName.ifPresent(name -> System.out.println("Found (sequential): " + name));
+
+        // Using findAny() with a parallel stream
+        Optional<String> anyNameParallel = names.parallelStream().findAny();
+        anyNameParallel.ifPresent(name -> System.out.println("Found (parallel): " + name));
     }
 }
